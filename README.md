@@ -1,6 +1,6 @@
 # UploadS3
-### Primero se debe de realizar bucket 
-### Las políticas debe de ser 
+### 1) Primero se debe de realizar bucket 
+### 2) Las políticas debe de ser 
 {
   "Id": "Policy1677872017249",
   "Version": "2012-10-17",
@@ -14,7 +14,7 @@
     }
   ]
 }
-### Y las reglas CORS
+### 3) Las reglas CORS deben de ser
 [    {        "AllowedHeaders": [            "*"        ],
         "AllowedMethods": [
             "GET",
@@ -30,6 +30,6 @@
     }
 ]
 
-### Por último, se debe de instalar las librerías de AWS-SDK con el comando:
+### 4) Instalar las librerías de AWS-SDK con el comando:
 #### npm install aws-sdk
 ### Y listo!
