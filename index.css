@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    position: static;
+    border: 3px solid #73AD21;
+    text-align: center;
+    margin: 30px 25px 200px 100px;
+  }
